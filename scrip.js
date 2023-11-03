@@ -651,22 +651,22 @@ const nombres = [ "jorge", "juan", "maria", "miriam", "josu", "jando","fernando"
 for (let i = 0; i <nombres.length; i++) { //con este comando me entrega en tiempo real el total del contenido del arays. 
     console.log (nombres [i])
 }
- */ 
+
 // COMO  AGREGAR ELEMENTOS EN UN ARRAYS-----
 // --------METODO PUSH----METODO PUSH---
 
 const nombres1 = [ "jorge", "juan", "maria", "miriam", "josu", "jando","fernando", "edgardo", ]
 console.log (nombres)
 
-nombres.push ("miguel") // este comando agrega el elemento en ultimo lugar
+nombres.push ("miguel") // este comando agrega el elemento en ultimo lugarclear
 console.log (nombres)
 
-nombres.unshift("Federico") // este comando agrega el elemento al principio del arrays
+nombres.unshift("Federico") //  este comando agrega el elemento al principio del arraysgit 
 console.log (nombres)
 
 nombres.splice (4,0, "ludmila") // este comando agrega el elemento en el indice que determine
 console.log (nombres) 
-
+ */ 
 
 
 
